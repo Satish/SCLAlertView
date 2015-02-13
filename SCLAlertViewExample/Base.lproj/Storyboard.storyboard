@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ohq-jH-G4R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Eu8-li-pxX">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sB-cQ-cdn">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sB-cQ-cdn">
                                 <rect key="frame" x="248" y="36" width="102" height="30"/>
                                 <state key="normal" title="Show Success">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,7 +26,7 @@
                                     <action selector="showSuccess:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="ACK-QB-4RN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4U1-31-wBg">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4U1-31-wBg">
                                 <rect key="frame" x="261" y="74" width="77" height="30"/>
                                 <state key="normal" title="Show Error">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,7 +35,7 @@
                                     <action selector="showError:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="stK-8e-Ode"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYK-Po-EUn">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYK-Po-EUn">
                                 <rect key="frame" x="257" y="112" width="88" height="30"/>
                                 <state key="normal" title="Show Notice">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,7 +44,7 @@
                                     <action selector="showNotice:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="SHr-Zs-qrR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2J-Bd-hKP">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2J-Bd-hKP">
                                 <rect key="frame" x="251" y="150" width="100" height="30"/>
                                 <state key="normal" title="Show Warning">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,7 +53,7 @@
                                     <action selector="showWarning:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="kBb-ZH-gS3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-Im-7MS">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-Im-7MS">
                                 <rect key="frame" x="265" y="188" width="69" height="30"/>
                                 <state key="normal" title="Show Info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -62,7 +62,7 @@
                                     <action selector="showInfo:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="bdE-6Y-hsO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mww-Jw-0ao">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mww-Jw-0ao">
                                 <rect key="frame" x="264" y="226" width="70" height="30"/>
                                 <state key="normal" title="Show Edit">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -71,7 +71,7 @@
                                     <action selector="showEdit:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="bDO-A6-Ero"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ID-0w-GrU">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ID-0w-GrU">
                                 <rect key="frame" x="240" y="264" width="121" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="8I0-W2-Vao"/>
@@ -83,7 +83,7 @@
                                     <action selector="showAdvanced:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="uYS-7O-vUK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0L-ki-asc">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0L-ki-asc">
                                 <rect key="frame" x="229" y="302" width="143" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="ClH-xh-nSa"/>
@@ -95,7 +95,7 @@
                                     <action selector="showWithDuration:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="aqD-3F-YmJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRS-IB-vIQ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRS-IB-vIQ">
                                 <rect key="frame" x="228" y="340" width="143" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="143" id="I9Y-ZI-qiU"/>
@@ -107,7 +107,7 @@
                                     <action selector="showCustom:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="m4v-4B-1YQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBG-LD-1eZ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBG-LD-1eZ">
                                 <rect key="frame" x="229" y="378" width="143" height="30"/>
                                 <state key="normal" title="Show Validation">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -116,7 +116,7 @@
                                     <action selector="showValidation:" destination="Ohq-jH-G4R" eventType="touchUpInside" id="1DV-xd-ugz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fs5-sr-WWC">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fs5-sr-WWC">
                                 <rect key="frame" x="203" y="416" width="196" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="hiy-05-eK2"/>
@@ -156,10 +156,63 @@
                             <constraint firstItem="8ID-0w-GrU" firstAttribute="centerX" secondItem="mww-Jw-0ao" secondAttribute="centerX" constant="1.5" id="tef-Wd-z5m"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="3Zq-Fl-t8o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vz4-cZ-r73" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="143"/>
+            <point key="canvasLocation" x="1312" y="143"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kYC-Zo-o6u">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Eu8-li-pxX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P2p-Dx-hlW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vLg-4c-46s" kind="relationship" relationship="rootViewController" id="psY-9h-k4K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S7m-gq-nhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-219" y="143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8eH-Af-bix">
+            <objects>
+                <viewController id="vLg-4c-46s" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CcO-MO-y8o"/>
+                        <viewControllerLayoutGuide type="bottom" id="VYI-Kf-KXL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DRZ-hR-VNN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1Q-v5-ztB">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ohq-jH-G4R" kind="show" id="cAu-fR-iyL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="J1Q-v5-ztB" secondAttribute="centerX" id="8KD-lH-vcG"/>
+                            <constraint firstAttribute="centerY" secondItem="J1Q-v5-ztB" secondAttribute="centerY" id="MIE-DP-03P"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rGc-gL-L8W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLP-tE-gzC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="535" y="143"/>
         </scene>
     </scenes>
 </document>
